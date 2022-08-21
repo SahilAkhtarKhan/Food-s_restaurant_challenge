@@ -1,0 +1,45 @@
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 10% 10%;
+}
+.card {
+  width: 18.7rem;
+  background-color: ghostwhite;
+  border-radius: 10px;
+}
+img {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.card-body {
+  margin-left: 10px;
+}
+.card-body p {
+  margin: 0px;
+}
+.plus-minus-btn {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.plus-btn {
+  background-color: darkblue;
+  color: white;
+}
+.minus-btn {
+  background-color: red;
+  color: white;
+}
+.checkout-btn {
+  background-color: darkblue;
+  color: white;
+  float: right;
+  position: fixed;
+  top: 100px;
+  right: 40px;
+}
+img {
+  width: -webkit-fill-available;
+}

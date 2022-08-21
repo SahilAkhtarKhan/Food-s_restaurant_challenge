@@ -1,0 +1,9 @@
+.heading {
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  width: 100vw;
+  color: white;
+  position: fixed;
+  top: 0%;
+  padding-left: 20px;
+}
